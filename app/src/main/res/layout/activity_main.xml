@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.abnd_musicalstructure.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/rockAndRollPlaylist"
+        style="@style/playlistLinearLayout">
+        <ImageView
+            style="@style/playlistImageView"
+            android:src="@drawable/rockandroll"/>
+        <TextView
+            style="@style/playlistTextView"
+            android:text="Rock'n roll"/>
+    </LinearLayout>
+
+    <View style="@style/divider"/>
+
+    <LinearLayout
+        android:id="@+id/reggaePlaylist"
+        style="@style/playlistLinearLayout">
+        <ImageView
+            style="@style/playlistImageView"
+            android:src="@drawable/rastafari"/>
+        <TextView
+            style="@style/playlistTextView"
+            android:text="Reggae"/>
+    </LinearLayout>
+
+    <View style="@style/divider"/>
+
+    <LinearLayout
+        android:id="@+id/electroPlaylist"
+        style="@style/playlistLinearLayout">
+        <ImageView
+            style="@style/playlistImageView"
+            android:src="@drawable/electro"/>
+        <TextView
+            style="@style/playlistTextView"
+            android:text="Electro"/>
+    </LinearLayout>
+
+    <View style="@style/divider"/>
+
+</android.widget.LinearLayout>
